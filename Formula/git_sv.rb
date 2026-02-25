@@ -1,22 +1,22 @@
 class GitSv < Formula
   desc "Visualize git graph in your terminal with a beautiful TUI"
   homepage "https://github.com/PolySim/git_sv"
-  version "0.3.12"
+  version "0.3.13"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/PolySim/git_sv/releases/download/v0.3.12/git_sv-v0.3.12-aarch64-apple-darwin.tar.gz"
-      sha256 "631ac23b21bde8d2675da8216ede8c4397f27145f2ced9c78d3e4d88751ec8a2"
+      url "https://github.com/PolySim/git_sv/releases/download/v0.3.13/git_sv-v0.3.13-aarch64-apple-darwin.tar.gz"
+      sha256 "fccd45a181cd22dcf3d2fd6a3238e65c6f73d4e7913028a88e292d3da5435670"
     else
-      url "https://github.com/PolySim/git_sv/releases/download/v0.3.12/git_sv-v0.3.12-x86_64-apple-darwin.tar.gz"
-      sha256 "55702eb780e31d71dd43e6ff4ad2097b45e5234ca1661da676d943acc9100cae"
+      url "https://github.com/PolySim/git_sv/releases/download/v0.3.13/git_sv-v0.3.13-x86_64-apple-darwin.tar.gz"
+      sha256 "f0669236856c045214f5863dc5489023cef70791a8d437f7b3b2b133a25d9eb9"
     end
   end
 
   on_linux do
-    url "https://github.com/PolySim/git_sv/releases/download/v0.3.12/git_sv-v0.3.12-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "d3d0364d7c09caf5f0e699ab0a13cf5f5b3fc05eed5a5194344af6812f2ed000"
+    url "https://github.com/PolySim/git_sv/releases/download/v0.3.13/git_sv-v0.3.13-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "8be2a858886c9fe00033e53395f58a14eef55992a8d285ab315ca361f002ce04"
   end
 
   def install
